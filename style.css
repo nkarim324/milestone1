@@ -1,0 +1,169 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    
+    
+   
+}
+
+.bg-image{
+    width:100vw;
+    height:100vh;
+    position: relative;
+    background-image: url(images/donation3.jpg);
+    background-size: cover;
+}
+
+.overlay{
+    width: 100%;
+    height:100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(0,0,0,0.5);
+    font-size: 26px;
+}
+
+
+button{
+    color:#fff;
+    background:#FF5959;
+    padding:15px 25px;
+    border-radius: 5px;
+    margin:15px 30px;
+   border:none;
+   font-size: 18px;
+}
+
+button:hover{
+    background-color: #707070;
+    color:black;
+}
+ 
+
+h1{
+    
+    padding-top: 100px;
+    color:#ffffff;
+    
+    
+}
+
+
+
+
+#main p{
+    color:#f7f3f2;
+    font-size: 20px;
+    margin:20px;
+}
+
+.container{
+    width:100%;
+    height:auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     overflow: hidden; 
+}
+
+.box{
+   width:30%;
+   height:400px;
+   margin:10px 20px;
+    
+}
+
+.box img{
+    padding: 20px;
+ 
+ }
+
+
+ .box p{
+    padding: 40px 20px;
+ 
+ }
+.red{color:rgba(235, 46, 13, 0.89);
+    font-size: 70px;
+}
+
+#donate{
+    margin-top: 90px;
+     text-align: center;
+}
+
+#donate p{
+    color:#707070;
+    margin:40px 0;
+}
+
+ h5{
+    display:inline-block;
+    margin:20px 40px;
+    font-size: 18px;
+    padding: 30px;
+    
+  
+}
+h5:hover{
+    background-color: #FFEEEE;
+    color:#FF5959;
+    border:1px solid red;
+    border-radius: 5px;
+    
+}
+
+h2{
+   margin-top:50px;
+   font-size: 40px;
+   
+}
+
+hr{
+    width:50%;
+}
+
+
+
+
+
+.food{
+    
+    background-color:#EDF5F6;
+   
+}
+.shelter{
+    
+    background-color: #FFEEEE;
+}
+    
+.edu{
+    background-color:#FFF4D6;
+}
+
+
+#plan{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#contribution{
+   width:100%;
+   height:auto;
+   display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     overflow: hidden;
+}
+
+
+ 
+
+
+
+
